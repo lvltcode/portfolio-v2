@@ -1,0 +1,176 @@
+:root {
+  --primary-color: #0A6C74;
+  --hover-color: #14919B;
+  --dark-color: #141414;
+  --light-color: #BCCCDC;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--primary-color);
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 18vw;
+}
+
+.nav {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.nav > img {
+    background: var(--light-color);
+}
+
+li .nav-link {
+  margin-top: 0.5em;
+  color: var(--primary-color);
+}
+li .nav-link:hover {
+  color: var(--hover-color);
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+/* header */
+.header img {
+  border-radius: 4em;
+  width: 100%;
+}
+
+/*** About Section ***/
+
+.headline {
+    padding: 2em 0;
+}
+
+.headline img {
+  max-width: 15em;
+  position: relative;
+}
+
+.fab {
+  padding: 0.1em 0.2em;
+  color:#0A6C74;
+}
+
+.fab:hover {
+  cursor: pointer;
+  color: var(--hover-color);
+  transform: scale(1.1);
+}
+
+
+
+/*** skill ***/
+.skill {
+    background: var(--primary-color);
+    text-align: center;
+}
+
+.skill .skill-topics ul {
+    text-transform: uppercase;
+}
+
+.skill h2 {
+    font-size: 1.6rem;
+    color: #fff;
+}
+.skill p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.skill .tag-line {
+  color: white;
+  font-size: 1.4em;
+}
+
+.skill i {
+  color: rgb(255, 138, 89);
+  font-size: 4em;
+}
+
+.skill h3 {
+  color: #fff;
+}
+
+.skill-topics p {
+  color: #acaeb2;
+  font-family: "Maven pro", sans-serif;
+}
+
+.skill-topics ul li {
+  list-style: none;
+  color: #bbd2ff;
+  font-family: "Maven pro", sans-serif;
+  font-weight: 500;
+}
+
+.project {
+  font-family: 'Work Sans', sans-serif;
+}
+.project-head {
+color: #627D98;
+margin: auto;
+padding: 1rem 2rem;
+text-transform: uppercase;
+}
+
+.card-header {
+  text-transform: uppercase;
+}
+
+.card {
+  width: 100%;
+  max-width: 18rem; 
+  height: 300px;
+  border: none;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  z-index:1;
+  box-shadow: #14919B;
+}
+
+/* footer */
+footer {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.footer-bg {
+  background: #E9B949;
+}
+
+.contact {
+  height: 17em;
+}
+
+.contact > h1:hover {
+  transform: scale(1.2);
+}
+.contact > h4:hover {
+  transform: scale(1.2);
+}
+.contact > h6:hover {
+  transform: scale(1.5);
+}
