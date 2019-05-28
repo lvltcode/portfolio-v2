@@ -174,3 +174,16 @@ footer {
 .contact > h6:hover {
   transform: scale(1.5);
 }
+
+/* scroll */
+
+.scrollbar {
+  background: #BCCCDC;
+  height: 45em;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.force-overflow {
+  min-height: 45em;
+}
